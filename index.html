@@ -21,9 +21,11 @@
 			<span class="logo"><img src="images/milena.jpg" alt="Milena Paripović"></span>
 			<h1>Milena Paripović | Passionate About Tech & Problem-Solving</h1>
             <p>
-             Master’s program student at the Faculty of Organizational Sciences with hands-on experience
-             in Java, JavaScript, Node.js, MongoDB, Express, and React.
-             Passionate about building efficient and scalable web applications.
+                Master’s student in Software Engineering and Artificial Intelligence at the Faculty of
+                Organizational Sciences, with hands-on experience across the full stack — Java and Spring Boot,
+                JavaScript, React, Node.js, Express, and MongoDB — as well as Python and modern AI tooling
+                (LangChain, LangGraph, RAG). Passionate about building efficient, scalable applications and
+                intelligent systems.
              <a href="https://github.com/Milenica88">@mygithub</a>
 			</p>
 		</header>
@@ -35,57 +37,119 @@
 			</ul>
 		</nav>
 
-		<!-- Main Content -->
-		<div id="main">
+		        <!-- Main Content -->
+        <div id="main">
+ 
+            <!-- 1. Booking App -->
+            <section id="projects" class="main special">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>Booking App</h2>
+                        </header>
+                        <span class="rectangular-image"><img src="images/Picture1.png" alt="Booking App"></span>
+                        <p style="text-align: center;">A full-stack web application for booking apartments, built with
+                            React on the front-end and Node.js on the back-end. The project uses Jest for front-end
+                            testing to ensure the reliability and correct behavior of the application. It demonstrates
+                            a complete client–server architecture, from the user interface to the API layer.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/elab-development/internet-tehnologije-projekat-appbooking_2018_0470"
+                                    class="button">View Project</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+ 
+            <!-- 2. Cosmetics App -->
+            <section id="cosmetics" class="main special">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>Cosmetics App</h2>
+                        </header>
+                        <span class="square-image"><img src="images/anelim_cosmetics.png" alt="Cosmetics App"></span>
+                        <p style="text-align: center;">"Anelim Cosmetics" is a Java-based desktop application designed to
+                            manage a luxury cosmetics store. It lets users efficiently handle customers, orders, and
+                            products through features for data entry, search, modification, and deletion. The system
+                            streamlines store operations, improves business organization, and enhances the overall
+                            customer experience.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/Milenica88/kozmetika_projekat" class="button">View
+                                    Project</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+ 
+            <!-- 3. Plan pokrivenosti nastave -->
+            <section id="teaching-plan" class="main special">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>Teaching Coverage Plan App</h2>
+                        </header>
+                        <span class="rectangular-image"><img src="images/teaching_plan.png" alt="Teaching Coverage Plan App"></span>
+                        <p style="text-align: center;">A full-stack application for managing a faculty's teaching coverage
+                            plan, built with Spring Boot (Spring Data JPA, Liquibase, REST API) on the back-end and React
+                            with Axios on the front-end. It features role-based authentication and authorization
+                            (User and Administrator roles), full CRUD operations over the teaching plan, validation rules
+                            on the number of teaching hours, and REST endpoints documented with Swagger / OpenAPI.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/mmloknizam/planpokrivenostinastave_nst2026" class="button">View
+                                    Project</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+ 
+            <!-- 4. AI Agent (Google Colab) -->
+            <!-- TODO: dopuni opis konkretnim detaljima šta agent radi (model, biblioteke, zadatak) -->
+            <section id="ai-agent" class="main special">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>AI Agent (Google Colab)</h2>
+                        </header>
+                        <span class="rectangular-image"><img src="images/ai_agent.png" alt="AI Agent on Google Colab"></span>
+                        <p style="text-align: center;">An AI agent built in Python that answers questions about cosmetic
+                            product ingredients, their safety, and their effect on the skin. It uses a Retrieval-Augmented
+                            Generation (RAG) approach, grounding answers in trusted sources — the official Serbian
+                            cosmetics regulation, professional literature, and local natural-cosmetics brands — instead of
+                            relying solely on the model's built-in knowledge. The system combines a Chroma vector database
+                            with multilingual BAAI/bge-m3 embeddings, a Groq-hosted Llama 3.1 model, and Tavily web search,
+                            all orchestrated with LangGraph. A router node autonomously decides whether each question is
+                            answered directly, from the local knowledge base, or via live web search, and the agent keeps
+                            conversation memory across turns.</p>
+                        <ul class="actions special">
+                            <li><a href="https://colab.research.google.com/drive/1ZI6w2RNVJB6nxd7MTDN1k7lzlyU5mFwj"
+                                    class="button">View Project</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+ 
+            <!-- 5. Makeup Adviser -->
+            <section id="makeup" class="main special">
+                <div class="spotlight">
+                    <div class="content">
+                        <header class="major">
+                            <h2>Makeup Adviser</h2>
+                        </header>
+                        <span class="square-image"><img src="images/makeup_adviser.png" alt="Makeup Adviser"></span>
+                        <p style="text-align: center;">An AI-powered application that recommends makeup based on the user's
+                            skin type, tone, preferences, and occasion. The goal is to deliver personalized product and
+                            style recommendations using AI models combined with solid software engineering principles.
+                            The system is organized into a separate backend and frontend.</p>
+                        <ul class="actions special">
+                            <li><a href="https://github.com/Milenica88/vestacka-inteligencija-projekat-makeupadvisor_2025_3829"
+                                    class="button">View Project</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+ 
+        </div>
 
-			<!-- Projects Section -->
-			<section id="cosmetics" class="main special">
-				<div class="spotlight">
-					<div class="content">
-						<header class="major">
-							<h2>Booking App</h2>
-						</header>
-						<span class="rectangular-image"><img src="images/Picture1.png" alt="Booking App"></span>
-
-						<p style="text-align: center;">The application is designed for booking apartments and is built
-							using React for the front-end and Node.js for the back-end.
-							The project also incorporates Jest for front-end testing to ensure the reliability and
-							functionality of the application.</p>
-						<ul class="actions special">
-							<li><a href="https://github.com/elab-development/internet-tehnologije-projekat-appbooking_2018_0470"
-									class="button">View Project</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-			<!-- Cosmetics App Section -->
-			<section id="cosmetics" class="main special">
-				<div class="spotlight">
-					<div class="content">
-						<header class="major">
-							<h2>Cosmetics App</h2>
-						</header>
-
-						<span class="square-image"><img src="images/anelim_cosmetics.png" alt="Cosmetics App"></span>
-						<p style="text-align: center;">The software system "Anelim Cosmetics" is a Java-based
-							application designed to manage a luxury cosmetics store.
-							It allows users to efficiently handle customers, orders, and products by providing features
-							for data entry, search, modification, and deletion.
-							This application streamlines store operations, improves business organization, and enhances
-							the overall customer experience.</p>
-
-
-						<ul class="actions special">
-							<li><a href="https://github.com/Milenica88/kozmetika_projekat" class="button">View
-									Project</a>
-							</li>
-						</ul>
-
-					</div>
-				</div>
-			</section>
-		</div>
 
 		<!-- Footer -->
 		<footer id="footer">
